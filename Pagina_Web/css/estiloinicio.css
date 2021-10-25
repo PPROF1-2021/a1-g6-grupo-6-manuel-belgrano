@@ -4,32 +4,36 @@ li{
 }
 .navbar-brand{
     font-family: 'Lobster', cursive;
-    padding-left: 40px;
+    padding-left: 70px;
     
 }
 .navbar{
    background-color:rgba(153,102,240,0.6);
    border-radius: 8px;
-   background: linear-gradient(rgba(153, 102, 255, 0.85), rgba(153, 102, 255, 0.85)),  no-repeat center center fixed;
+   background: linear-gradient(rgba(153, 102, 255, 0.85), rgba(153, 102, 255, 0.85)) no-repeat center center fixed;
    background-size: cover;
    margin-left: 20px;
    margin-right: 20px;
+
 }
 .contenedortexto{
-   
     margin-top: 10px;
     border-radius: 20px;
-    background-color: #fdfdb7;
+    background-color: #F4EB9B;
 }
 .dropdown-menu{
-    background: linear-gradient(rgba(153, 102, 255, 0.85), rgba(153, 102, 255, 0.85)),  no-repeat center center fixed;
+    background: linear-gradient(rgba(153, 102, 255, 0.85), rgba(153, 102, 255, 0.85)) no-repeat center center fixed;
 }
 
-img{
+#cajaimagen{
     margin-top: 85px;
-    width: 100%;
+    
 }
 body{
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.primeracaja{
+    padding-top: 35px;
 }
