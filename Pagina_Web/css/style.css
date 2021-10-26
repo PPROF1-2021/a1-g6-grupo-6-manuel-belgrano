@@ -12,22 +12,6 @@ html {
   font-size: 62.5%;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  font-size: 16px; /* 1rem = 10px */
-  font-family: "Krub", sans-serif;
-  background-image: linear-gradient(to top, #dfe9f3 0%, var(--blanco) 100%);
-}
-
-.contenedor {
-  max-width: 120rem;
-  margin: 0 auto;
-}
 
 .sombra {
   box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
@@ -36,37 +20,11 @@ body {
   border-radius: 1rem;
 }
 
-/* Tipografia */
-
-h1 {
-  font-size: 3.8rem;
-}
-
-h2 {
-  font-size: 2.8rem;
-}
-
-h3 {
-  font-size: 1.8rem;
-}
-
-h1,
-h2,
-h3 {
-  text-align: center;
-}
-
 /* Titulo */
 
-.titulo span {
-  font-size: 2rem;
-}
+
 
 /* Utilidades */
-
-.w-100 {
-  width: 100%;
-}
 
 @media (min-width: 768px) {
   .w-100 {
@@ -87,13 +45,8 @@ h3 {
 .contenedor {
   width: 120rem;
 }
-.nav-bg {
-  background-color: var(--secundario);
-}
-.navegacion-principal {
-  display: flex;
-  flex-direction: column;
-}
+
+
 
 @media (min-width: 768px) {
   .navegacion-principal {
