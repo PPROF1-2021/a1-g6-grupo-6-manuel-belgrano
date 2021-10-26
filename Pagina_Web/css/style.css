@@ -245,9 +245,6 @@ html {
   color: var(--primario);
 }
 
-.contenedor-campos {
-}
-
 .campo-ct {
   margin-bottom: 1rem;
 }
@@ -297,19 +294,3 @@ html {
   position: relative;
   margin-bottom: 2rem;
 }
-
-/* Iconos Contactos 
-
-.iconos-contactos {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  column-gap: 2rem;
-}
-
-@media (min-width: 768px) {
-  .icono-contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}*/
