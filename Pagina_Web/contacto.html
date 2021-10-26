@@ -1,186 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="placeholder" href="css/normalize.css" as="style" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="placeholder" href="css/style.css" as="style" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Contacto</title>
-  </head>
-  <body>
-    <header>
-      <h1 class="titulo">
-        Bilioteca Popular
-        <span> Dr. Manuel Belgrano</span>
-      </h1>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Página insitucional de la biblioteca Manuel Belgrano, Villa General Belgrano, Córdoba "
+  />
+  <meta
+    name="keywords"
+    content="biblioteca, córdoba, membresía, buscador de libros, reserva online"
+  />
+  <title>Biblioteca Popular Dr.Manuel Belgrano</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="css/estiloinicio.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body class="contenedor-principal">
+  <div class="container-fluid contenedor">
+    <nav
+      class="
+        navbar navbar-expand-md navbar-light
+        border-3 border-bottom
+        scrolling-navbar
+        fixed-top
+      "
+    >
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand fs-3 fw-bolder"> M.B </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="nav-bg">
-      <nav class="navegacion-principal contenedor">
-        <a href="index.html">Inicio</a>
-        <a href="sobre-nosotros.html">Sobre Nosotros</a>
-        <a href="login.html">Login</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
-    </div>
-
-    <main class="contenedor-contacto imagen-contacto">
-      <!--<div class="iconos-contactos">
-        <div class="icono-contacto">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-device-mobile-vibration"
-            width="72"
-            height="72"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#ffffff"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <rect x="4" y="4" width="10" height="16" rx="1" />
-            <line x1="8" y1="5" x2="10" y2="5" />
-            <line x1="9" y1="17" x2="9" y2="17.01" />
-            <path d="M20 6l-2 3l2 3l-2 3l2 3" />
-          </svg>
+        <div id="menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="login.html"
+                >Iniciar sesión</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="sobre-nosotros.html"
+                >Sobre nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Nuestros servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item text-white"
+                    >Buscador de libros</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item text-white"
+                    >Envío a domicilio</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item text-white"
+                    >Reserva online</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-
-        <div class="icono-contacto">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-mail"
-            width="72"
-            height="72"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#ffffff"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <rect x="3" y="5" width="18" height="14" rx="2" />
-            <polyline points="3 7 12 13 21 7" />
-          </svg>
-        </div>
-
-        <div class="icono-contacto">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-whatsapp"
-            width="72"
-            height="72"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#ffffff"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
-            <path
-              d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"
-            />
-          </svg>
-        </div>
-
-        <div class="icono-contacto">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-facebook"
-            width="72"
-            height="72"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#ffffff"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path
-              d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
-            />
-          </svg>
-        </div>
-
-        <div class="icono-contacto">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-instagram"
-            width="72"
-            height="72"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#ffffff"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <rect x="4" y="4" width="16" height="16" rx="4" />
-            <circle cx="12" cy="12" r="3" />
-            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-          </svg>
-        </div>
-      </div>-->
-      <!--Iconos -->
-
-      <div>
-        <section></section>
       </div>
-    </main>
+    </nav>
+  </div>
 
-    <section class="sombra-formulario">
-      <h2>Contacto</h2>
-      <form class="formulario-ct">
-        <fieldset>
-          <legend>Contactanos llenando todos los campos</legend>
+  <main class="imagen-contacto"></main>
 
-          <div class="contenedor-campos">
-            <div class="campo-ct">
-              <label>Nombre</label>
-              <input class="imput-text" type="text" placeholder="Tu Nombre" />
-            </div>
+  <section class="sombra-formulario">
+    <h2>Contacto</h2>
+    <h3>
+      Teléfono: 3546 462195 <br />
+      E-mail: biblio.vgb@gmail.com <br />Dirección: Julio A.Roca 128 <br />
+      Localidad: Villa General Belgrano <br />
+      Provincia: Córdoba País: Argentina
+    </h3>
 
-            <div class="campo-ct">
-              <label>Telefono</label>
-              <input class="imput-text" type="tel" placeholder="Tu Telefono" />
-            </div>
+    <form class="formulario-ct">
+      <fieldset>
+        <legend>Contactanos llenando todos los campos</legend>
 
-            <div class="campo-ct">
-              <label for="">Correo</label>
-              <input class="imput-text" type="email" placeholder="Tu Correo" />
-            </div>
-
-            <div class="campo-ct">
-              <label for="">Mensaje</label>
-              <textarea class="imput-text"></textarea>
-            </div>
+        <div class="contenedor-campos">
+          <div class="campo-ct">
+            <label>Nombre</label>
+            <input class="imput-text" type="text" placeholder="Tu Nombre" />
           </div>
 
-          <div class="enviar">
-            <input class="boton" type="submit" value="Enviar" />
+          <div class="campo-ct">
+            <label>Telefono</label>
+            <input class="imput-text" type="tel" placeholder="Tu Telefono" />
           </div>
-        </fieldset>
-      </form>
-    </section>
 
-    <footer class="footer">Todos los derechos reservados.</footer>
-  </body>
-</html>
+          <div class="campo-ct">
+            <label for="">Correo</label>
+            <input class="imput-text" type="email" placeholder="Tu Correo" />
+          </div>
+
+          <div class="campo-ct">
+            <label for="">Mensaje</label>
+            <textarea class="imput-text"></textarea>
+          </div>
+        </div>
+
+        <div class="enviar">
+          <input class="boton" type="submit" value="Enviar" />
+        </div>
+      </fieldset>
+    </form>
+  </section>
+  <footer>
+    <p>
+      Biblioteca Popular Manuel Belgrano<br />Villa General Belgrano- Pcia.
+      Córdoba- Argentina Copyright todos los derechos reservados.
+    </p>
+  </footer>
+</body>
