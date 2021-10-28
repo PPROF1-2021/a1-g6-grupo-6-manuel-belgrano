@@ -30,37 +30,63 @@
     }
 </style>
 
-<body class=" contenedor-principal">
-    
-        <div class="container-fluid contenedor">
-            <nav class="navbar navbar-expand-md  navbar-light border-3 border-bottom scrolling-navbar fixed-top ">
-                <div class="container-fluid ">
-                    <a href="index.html" class="navbar-brand fs-3 fw-bolder">  M.B </a>
-                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-
-                    <div id="menu" class="collapse navbar-collapse">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item"><a class="nav-link text-white" href="login.html">Iniciar sesión</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
-                                  Nuestros servicios
-                           </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item text-white">Buscador de libros</a></li>
-                                    <li><a href="#" class="dropdown-item text-white">Envío a domicilio</a></li>
-                                    <li><a href="#" class="dropdown-item text-white">Reserva online</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+<body class=" contenedor-principal"  id="cuerpo">
+  <header>
+    <div class="container-fluid contenedor" id="contenedor-barra">
+        <nav class="navbar navbar-expand-md  navbar-light border-3 border-bottom scrolling-navbar fixed-top "  id="barra-nav">
+           <div class="container-fluid" id="iconos">
+               <a href="index.html" class="navbar-brand fs-3 fw-bolder">  M.B </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div id="menu" class="collapse navbar-collapse" id="menu-">
+                    <ul class="navbar-nav mx-auto"  id="lista">
+                     <li class="nav-item"><a class="nav-link text-white" href="login.html">Iniciar sesión</a></li>
+                      <li class="nav-item"><a class="nav-link text-white" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                       <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+                       <li class="nav-item"><a class="nav-link text-white" href="#">Actividades</a></li>
+                       <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                                Nuestros servicios
+                         </a>
+                         <ul class="dropdown-menu"  id="lista1">
+                            <li><a href="#" class="dropdown-item text-white">Buscador de libros</a></li>
+                            <li><a href="#" class="dropdown-item text-white">Envío a domicilio</a></li>
+                            <li><a href="#" class="dropdown-item text-white">Reserva online</a></li>
+                         </ul>
+                       </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-    <img src="images/biblioteca.jpg" alt="Logo biblioteca">
+           </div>
+        </nav>
+    </div>
+  </header>
+  <main id="Contenedor-main">
+    <div>
+    <img src="images/biblioteca.jpg" alt="Logo biblioteca" class="img-fluid rounded mx-auto rounded-3" id="cajaimagen" >
+  </div>
+  <section class="contenedorprincipal container-fluid"  id="seccion">
+       <div class="flex-container container-fluid">
+           
+              <div class="iconos container-fluid" id="serviciosindex">
+               <h3> Nuestros servicios</h3>
+                <div class="Caja-buscador">
+              <a href="#" class="dropdown-item"> <i class="fas fa-book-open"></i>Buscador de libros</a>
+              </div>
+
+             
+                <div class="Caja-envio">
+              <a href="#" class="dropdown-item "> <i class="fas fa-truck"></i>Envío a domicilio</a>
+               </div>
+
+              
+                <div class="Caja-reserva">
+              
+                <a href="#" class="dropdown-item "><i class="fas fa-book"></i>Reserva online</a>
+                </div>
+              </div>
+
 
     <form action="registro.html" method="post">
         <div class="registro">
