@@ -32,8 +32,7 @@
     text-align: center;
 }
 
-.registro input[type="text"],
-.registro input[type="password"] {
+.registro input {
     max-width: 600px;
     width: 80%;
     line-height: 3em;
@@ -45,8 +44,16 @@
     padding-left: 9px;
 }
 
-.footer{
+.footer {
     margin-top: 15px;
     padding-left: 10px;
     border-radius: 10px;
+}
+
+.login-button {
+    background-color: #757575;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
 }
