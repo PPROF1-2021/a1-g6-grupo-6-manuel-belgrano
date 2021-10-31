@@ -16,30 +16,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet"/>
     <link  rel="icon" href="images/favicon.png" type="image/png" />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
-    <
+    
   
 </head>
-<body class=" contenedor-principal">
+<body class=" contenedor-principal"  id="cuerpo">
   <header>
-    <div class="container-fluid contenedor">
-        <nav class="navbar navbar-expand-md  navbar-light border-3 border-bottom scrolling-navbar fixed-top ">
-           <div class="container-fluid ">
+    <div class="container-fluid contenedor" id="contenedor-barra">
+        <nav class="navbar navbar-expand-md  navbar-light border-3 border-bottom scrolling-navbar fixed-top "  id="barra-nav">
+           <div class="container-fluid" id="iconos">
                <a href="index.html" class="navbar-brand fs-3 fw-bolder">  M.B </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             
-                <div id="menu" class="collapse navbar-collapse">
-                    <ul class="navbar-nav mx-auto">
+                <div id="menu" class="collapse navbar-collapse" id="menu-">
+                    <ul class="navbar-nav mx-auto"  id="lista">
+                      <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
                      <li class="nav-item"><a class="nav-link text-white" href="login.html">Iniciar sesión</a></li>
                       <li class="nav-item"><a class="nav-link text-white" href="sobre-nosotros.html">Sobre nosotros</a></li>
                        <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
-                       <li class="nav-item"><a class="nav-link text-white" href="#">Actividades</a></li>
                        <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
                                 Nuestros servicios
                          </a>
-                         <ul class="dropdown-menu">
+                         <ul class="dropdown-menu"  id="lista1">
                             <li><a href="#" class="dropdown-item text-white">Buscador de libros</a></li>
                             <li><a href="#" class="dropdown-item text-white">Envío a domicilio</a></li>
                             <li><a href="#" class="dropdown-item text-white">Reserva online</a></li>
@@ -51,14 +51,14 @@
         </nav>
     </div>
   </header>
-  <main>
+  <main id="Contenedor-main">
     <div>
     <img src="images/biblioteca.jpg" alt="Logo biblioteca" class="img-fluid rounded mx-auto rounded-3" id="cajaimagen" >
   </div>
-  <section class="contenedorprincipal container-fluid">
+  <section class="contenedorprincipal container-fluid"  id="seccion">
        <div class="flex-container container-fluid">
            
-              <div class="iconos container-fluid">
+              <div class="iconos container-fluid" id="serviciosindex">
                <h3> Nuestros servicios</h3>
                 <div class="Caja-buscador">
               <a href="#" class="dropdown-item"> <i class="fas fa-book-open"></i>Buscador de libros</a>
@@ -78,7 +78,7 @@
 
 
            </div>
-               <div class="contenedor container-fluid">
+               <div class="contenedor container-fluid" id="articulo-leer">
                    <h4 class="leer"> LEER </h4>
                    <p>La lectura es un hábito que puede mejorar las condiciones sociales y humanas de cualquier lector, el leer permite pensar con reflexión y desarrollar los aspectos cognitivos del cerebro lo que ayuda a ejercitar todas las células y estar siempre activos para cualquier actividad que se realice en la vida cotidiana.</p>
                   <div id="caja-imagen2"><img src="images/biblioteca1.jpg" alt="imagen biblioteca"class="img-fluid rounded mx-auto rounded-3 imagenlibros"  width="300px" ></div> 
@@ -92,9 +92,9 @@
             
               </div>
               <h5 class="noticias- text-warning">Noticias</h5>
-              <div class=" noticias text-white">
+              <div class=" noticias text-white"  id="noticias-">
               
-                <img src="images/23sep.jpg" alt="bibliotecas populares">
+                <img src="images/23sep.jpg" alt="bibliotecas populares" class="img-fluid rounded mx-auto rounded-3">
                  <p>En 1990, por el Decreto Nº 1.935, se estableció el 23 de septiembre como Día de las Bibliotecas Populares, en recuerdo del día de promulgación de la Ley Nº 419 en el año 1870.
 
                   En julio de 1870, el Presidente de la Nación, Domingo Faustino Sarmiento y su Ministro de Instrucción, el Dr. Nicolás Avellaneda, enviaron al Congreso de la Nación el proyecto de creación de la Comisión Protectora de Bibliotecas Populares.
@@ -106,7 +106,7 @@
 
   </section>
   </main>
-    <footer class="bg-dark  text-white">
+    <footer class="bg-dark  text-white" id="pie-pagina">
       <i class="fas fa-home"></i> <small> Julio A Roca 128, X5194 Villa Gral. Belgrano, Córdoba</small> <br>
       <i class="fas fa-phone"></i> <small>  540 3546- 462195</small> <br>
       <i class="fab fa-instagram-square"></i> Redes  <br>
@@ -114,10 +114,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<footer>
-
-    <p>Biblioteca Popular Manuel Belgrano<br>Villa General Belgrano- Pcia. Córdoba- Argentina Copyright todos los derechos reservados.</p>
-</footer>
 
 </body>
 </html>

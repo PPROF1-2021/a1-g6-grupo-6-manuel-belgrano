@@ -8,9 +8,6 @@
 
 /* Globales */
 
-html {
-  font-size: 62.5%;
-}
 
 
 .sombra {
@@ -60,7 +57,7 @@ html {
   text-align: center;
   color: var(--blanco);
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.2em;
   font-weight: 700;
   padding: 1rem;
 }
@@ -138,10 +135,6 @@ html {
 
 /* Footer */
 
-.footer {
-  text-align: center;
-  padding: 2rem;
-}
 
 /* Parrafo */
 
@@ -226,7 +219,7 @@ html {
 
 .formulario-ct {
   background-color: var(--gris);
-  width: min(60rem, 100%);
+  width: 700px;
   margin: 0 auto;
   padding: 2rem;
   border-radius: 1rem;
@@ -238,7 +231,7 @@ html {
 
 .formulario-ct legend {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -293,4 +286,14 @@ html {
   height: 450px;
   position: relative;
   margin-bottom: 2rem;
+  margin-top: 95px;
+  border-radius: 20px;
+}
+
+.contacto{
+  font-size: 1.2em ;
+  
+}
+.sombra-formulario{
+  text-align: center;
 }

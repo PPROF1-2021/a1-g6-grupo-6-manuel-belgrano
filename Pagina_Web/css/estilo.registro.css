@@ -28,7 +28,7 @@
     box-sizing: border-box;
     padding-top: 15px;
     padding-bottom: 10%;
-    margin: 5% auto;
+  
     text-align: center;
 }
 
@@ -43,4 +43,10 @@
     border: 1px solid #747279;
     outline: none;
     padding-left: 9px;
+}
+
+.footer{
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
 }

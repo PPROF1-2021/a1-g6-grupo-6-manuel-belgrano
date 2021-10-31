@@ -16,7 +16,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="images/favicon.png" type="image/png" />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-
+<script src="https://kit.fontawesome.com/a2c2a40119.js" crossorigin="anonymous"></script>
+<style>
+    body {
+        background-image: url('img/Logo.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .login{
+        margin-top: 20px;
+    }
+</style>
 </head>
 
 <body class=" contenedor-principal">
@@ -29,21 +40,22 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div id="menu" class="collapse navbar-collapse">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item"><a class="nav-link text-white" href="login.html">Iniciar sesión</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                    <div id="menu" class="collapse navbar-collapse" id="menu-">
+                        <ul class="navbar-nav mx-auto"  id="lista">
+                          <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
+                         <li class="nav-item"><a class="nav-link text-white" href="login.html">Iniciar sesión</a></li>
+                          <li class="nav-item"><a class="nav-link text-white" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                           <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+                           <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
                                     Nuestros servicios
                              </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item text-white">Buscador de libros</a></li>
-                                    <li><a href="#" class="dropdown-item text-white">Envío a domicilio</a></li>
-                                    <li><a href="#" class="dropdown-item text-white">Reserva online</a></li>
-                                </ul>
-                            </li>
+                             <ul class="dropdown-menu"  id="lista1">
+                                <li><a href="#" class="dropdown-item text-white">Buscador de libros</a></li>
+                                <li><a href="#" class="dropdown-item text-white">Envío a domicilio</a></li>
+                                <li><a href="#" class="dropdown-item text-white">Reserva online</a></li>
+                             </ul>
+                           </li>
                         </ul>
                     </div>
                 </div>
@@ -52,17 +64,9 @@
       <img src="images/biblioteca.jpg" alt="Logo biblioteca" class="img-fluid rounded mx-auto d-block" id="cajaimagen" >
 
 
-    <style>
-        body {
-            background-image: url('img/Logo.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-    </style>
     <section class="container ">
         <form action="index.html " method="post ">
-            <div class=" login ">
+            <div class="login">
                 <div class="login-header "><br><br><br><br>
                     <h2 class="fw-bold text-center py-5 ">INGRESA A TU CUENTA</h2>
                 </div>
@@ -86,14 +90,15 @@
     <script src=" js/script.js ">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+<footer class="bg-dark  text-white" id="pie-pagina">
+      <i class="fas fa-home"></i> <small> Julio A Roca 128, X5194 Villa Gral. Belgrano, Córdoba</small> <br>
+      <i class="fas fa-phone"></i> <small>  540 3546- 462195</small> <br>
+      <i class="fab fa-instagram-square"></i> Redes  <br>
+      <i class="fas fa-envelope-square"></i> biblio.vgb@gmail.com
+    
 </body>
 
 
-<footer>
 
-    <p> Biblioteca Popular Manuel Belgrano<br> Villa General Belgrano- Pcia. Córdoba- Argentina Copyright todos los derechos reservados.</p>
-
-</footer>
 
 </html>
