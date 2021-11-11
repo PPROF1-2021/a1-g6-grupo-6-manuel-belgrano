@@ -47,13 +47,9 @@
     font-size: 15px;
 }
 
-.footer,
-p {
-    text-align: center;
-    padding: 2rem;
-    margin: 0 auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15PX;
-    color: white;
-    background-color: transparent;
+.footer
+     margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+
 }
