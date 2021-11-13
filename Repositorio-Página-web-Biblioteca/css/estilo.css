@@ -1,0 +1,28 @@
+
+.footer,
+p {
+   margin-top: 15px;
+  padding-left: 10px;
+  border-radius: 10px;
+
+}
+
+#cajaimagen{
+    margin-top: 95px;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos al contenedor de "formulario"*/
+
+.caja2{
+    border: 5px solid  lightslategray;
+    border-radius: 5px;
+    padding:50px;
+ 
+}
+
+.pie{
+    margin-top: 20px;
+
+}
