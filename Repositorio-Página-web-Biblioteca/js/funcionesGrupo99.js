@@ -14,3 +14,17 @@ function mostrarOriginal() {
     imagen.src = "images/libros.jpg"
 
 }
+
+const formulario = document.getElementById("form")
+const edad = document.getElementById("edad")
+const boton = document.getElementById("boton")
+
+
+functionvalidar() {
+
+    if (edad.value < 15) {
+        alert("Tienes que tener 15!")
+    } else {
+        formulario.submit()
+    }
+}
