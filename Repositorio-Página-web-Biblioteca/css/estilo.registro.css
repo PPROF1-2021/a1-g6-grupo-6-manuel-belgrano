@@ -1,0 +1,41 @@
+
+
+
+.formulariocaja{
+    background-color: rgb(223, 191, 219);
+    border: 5px solid gray;
+    border-radius: 8px;
+
+}
+
+registro-header{
+    text-align: center;
+}
+
+.formulariocaja{
+    margin-top:30px;
+    text-align: center;
+
+}
+
+#cajaimagen{
+    margin-top: 95px;
+    margin-bottom: 20px;
+}
+
+.contenedorDatos {
+    height: 65vh;
+    width: 60%;
+    text-align: center;
+    background-color: #18191F;
+    margin-top:-20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 30px;
+    overflow: hidden;
+}
