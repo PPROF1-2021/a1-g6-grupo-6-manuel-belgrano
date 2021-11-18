@@ -112,8 +112,9 @@
         <div class="parraf container-fluid">
             <h2>UN POCO DE HISTORIA SOBRE NOSOTROS </h2>  <br>
             <section class="parrafo-ns">
-             <img class="parrafo__imagen" src="images/libros.jpg" id="foto" onmouseover="cambiarImagen()" onmouseout="mostrarOriginal"
-              style="width: 300px; height: 220px; float: left; padding: 15px;" class="img-fluid rounded mx-auto rounded-3 imagenlibros" />
+                
+           <img class="parrafo__imagen" src="images/libros.jpg" style="width: 300px; height: 220px; float: left; padding: 15px;"
+               class="img-fluid rounded mx-auto rounded-3 imagenlibros" id="foto" onmouseover="cambiarimagen()" >
               
 
 
@@ -142,6 +143,9 @@
 
 
             <script>
+                function cambiarimagen() {
+                    let imagen = document.getElementById("foto").src = "images/young.jpg";
+                }
 
               function cambiarimagen1(){
                 let imagen = document.getElementById("imagen2").src="images/watch.jpg";
